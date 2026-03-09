@@ -55,6 +55,10 @@ configure<UserBaseExtension> {
 
 repositories {
     maven {
+        name = "ModMaven"
+        setUrl("https://modmaven.dev/")
+    }
+    maven {
         name = "JEI"
         setUrl("http://dvs1.progwml6.com/files/maven/")
     }
